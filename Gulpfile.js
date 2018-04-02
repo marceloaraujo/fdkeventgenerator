@@ -30,7 +30,7 @@ gulp.task('insert', function() {
                     "client.events.on('ticket." + paramValue + "', " + functionName + ", {intercept: true});"
                 );
 
-                gulp.src('./app.js')
+                gulp.src('./app/app.js')
                     .pipe(insertLines({
                         'after': /var client = _client;/,
                         'lineAfter': funcTest.join("")
