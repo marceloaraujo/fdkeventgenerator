@@ -1,0 +1,15 @@
+{
+  "name": "gulpeventgenerator",
+  "version": "1.0.0",
+  "description": "A gulp project to generate Freshdesk events",
+  "main": "Gulpfile.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "Marcelo Araujo",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-insert-lines": "0.0.4"
+  }
+}
