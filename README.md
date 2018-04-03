@@ -9,6 +9,7 @@ To use this file, follow these steps:
  1. Download **Gulpfile.js** and **package.json**;
  2. Copy these files and paste them in Freshdesk app root folder;
  3. Run **npm install** to install the dependencies;
+
  Now you can run the **insert** command of gulp file. Let's go!
 
 # Run the command
@@ -18,6 +19,7 @@ You can run the following command to create an event:
  1. **insert** is the gulp task;
  2. **--event** means that you want to create an event;
  3. **closeTicketClick** is the event that will be created;
+ 
 And the following code has been generated in your **app.js**:
 ```javascript
 var  closeTicketClickCallback  =  function(event) {
