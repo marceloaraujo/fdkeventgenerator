@@ -35,7 +35,7 @@ gulp.task('insert', function() {
                         'after': /var client = _client;/,
                         'lineAfter': funcTest.join("")
                     }))
-                    .pipe(gulp.dest('.'));
+                    .pipe(gulp.dest('./app/'));
                     console.log("Evento criado com sucesso!!!");
             } else {
                 console.log("Comando não encontrado. Por favor, utilize os eventos do Event API do Freshdesk.");
